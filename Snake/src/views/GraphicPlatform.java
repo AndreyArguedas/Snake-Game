@@ -6,9 +6,7 @@
 package views;
 
 import control.Control;
-import model.Model;
 import java.awt.Color;
-import java.awt.Dimension;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 import static java.awt.event.KeyEvent.VK_DOWN;
@@ -50,7 +48,6 @@ public class GraphicPlatform {
                 mainPanel.add(graphicPlatform[i][j]);
             }
         }
-       //mainPanel.revalidate();
        mainPanel.repaint();
     }
     
